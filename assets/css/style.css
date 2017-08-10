@@ -1,0 +1,155 @@
+body {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+ul {
+    list-style-type: none;
+    }
+li {
+    float: right;
+    border-left: 1px solid ;
+    border-left-color: #dddddd;
+   
+}
+li:last-child {
+    border-left: none;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+.nav {
+  overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 3px solid #dddddd;
+}
+#lineContact {
+    width: 70%;
+    
+    color: #dddddd;
+}
+
+li a {
+  float: right;
+  display: block;
+ 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    background-color: beige;
+    background-image: url(../images/concrete_seamless.png)
+    }
+.section1 {
+    width: 650px;
+    float: left;
+    margin: 25px 10px 25px 10px;
+    background-color: #ffffff; 
+}
+img {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#portfolioImage {
+     float: left;
+    width: 230px;
+    height: 180px;
+    margin: 20px;
+    margin-left: 35px;
+   }
+hr {
+    width: 540px;
+    opacity: 30%;
+    display: block;
+    border-width: solid;
+/*    color: #dddddd;*/
+     
+}
+
+
+#portfolioImage:hover {
+    color:aquamarine;
+    opacity: 80%;
+}
+
+#icon {
+        padding: 0 0 40px 20px; 
+}
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    
+}
+.section2 {
+    float: right;
+    text-align: center;
+    width: 270px;
+    margin: 25px 10px 0 0;
+    background-color: #ffffff;
+}
+
+h1, h3 {
+   color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+h1 {
+     padding-left: 20px;
+}
+p {
+     padding: 0 20px;
+    
+}
+footer {
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    border-top: 4px solid #4aaaa5;
+/*
+ position:fixed;
+    bottom: 0;
+    width: 100%;
+*/
+}
+.sidebar {
+    width: 270px;
+}
+#line {
+    padding-left: 55px;
+}
+input[type=text], select, textarea {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    }
+
+.form {
+    float: left;
+   width: 600px;
+    background-color:#ffffff;
+    padding: 0 20px 20px 20px;
+    margin: 25px 0 50px 20px;
+}
